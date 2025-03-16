@@ -43,7 +43,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - _Scrum master_: Viviane
 - Protótipos: Arthur
 - Testes: João
-- Documentação: Ana, Bruno, Marcos
+- Documentação: Ana Julia, Bruno, Marcos
 
 #### Sprint 2
 - _Scrum master_: AlunaY
@@ -64,8 +64,8 @@ Atualizado em: 16/03/2025
 | Viviane        | README | 23/02/2025     | 16/03/2025  | ✔️    | 23/02/2025      |
 | Viviane        | Contexto    | 16/03/2025    | 16/03/2025 | ✔️   |      16/03/2025           |
 | Viviane        | Especificações  | 16/03/2025     | 16/03/2025 | ✔️     |          16/03/2025        |
-|     |  |         | |     |       |
-
+| Ana Julia  | Documentação |   15/03/2025      | 16/03/2025|    ✔️   |    | 15/03/2025  |
+|   Ana Julia  | Documentação |   15/03/2025      | 16/03/2025|     |  ✔️    | 15/03/2025  |
 #### Sprint 2
 
 Atualizado em: 21/04/2024
