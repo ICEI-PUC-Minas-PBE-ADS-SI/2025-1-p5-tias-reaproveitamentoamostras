@@ -65,7 +65,7 @@ Atualizado em: 16/03/2025
 | Viviane        | Contexto    | 16/03/2025    | 16/03/2025 | ✔️   |      16/03/2025           |
 | Viviane        | Especificações  | 16/03/2025     | 16/03/2025 | ✔️     |          16/03/2025        |
 | Ana Julia  | Documentação |   15/03/2025      | 16/03/2025|    ✔️   |    | 15/03/2025  |
-|   Ana Julia  | Documentação |   15/03/2025      | 16/03/2025|     |  ✔️    | 15/03/2025  |
+|   Ana Julia  | Documentação |   15/03/2025      |  16/03/2025  |  ✔️    | 15/03/2025  |
 #### Sprint 2
 
 Atualizado em: 21/04/2024
