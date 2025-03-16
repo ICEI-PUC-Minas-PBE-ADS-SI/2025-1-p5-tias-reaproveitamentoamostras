@@ -70,6 +70,10 @@ Atualizado em: 16/03/2025
 |   Ana Julia  | Documentação |   15/03/2025      |  16/03/2025  |  ✔️    | 15/03/2025  |
 |   Ana Julia  | Slide |   15/03/2025      |  16/03/2025  |  ✔️    | 15/03/2025  |
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Arthur        | Diagrama de Caso de Uso | 16/03/2025     | 16/03/2025  | ✔️    | 16/03/2025      |
+
 
 #### Sprint 2
 
