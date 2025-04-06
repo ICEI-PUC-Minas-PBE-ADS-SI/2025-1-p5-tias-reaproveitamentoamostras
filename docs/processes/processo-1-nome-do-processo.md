@@ -1,10 +1,10 @@
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Destinação das Amostras após Análise
 
 _Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
 Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
  
 ![Exemplo de um Modelo BPMN do PROCESSO 1](../images/process.png "Modelo BPMN do Processo 1.")
-
+![image alt](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/afe914fd60795baf88edef5fa189448e920c04dd/docs/images/tobe.jpeg)
 #### Detalhamento das atividades
 
 _Descreva aqui cada uma das propriedades das atividades do processo 1. 
