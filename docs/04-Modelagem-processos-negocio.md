@@ -32,12 +32,33 @@ Problemas e ineficiências identificadas:
 	•	Impressões desnecessárias de relatórios, o que gera consumo de recursos físicos.
 
 ## Descrição geral da proposta (Modelagem TO BE)
+A proposta visa digitalizar e automatizar o processo de cadastro, gerenciamento e destinação de amostras, substituindo controles manuais e comunicações informais por um sistema integrado, que envolve tanto o cadastro da amostra quanto o processo de doação. A solução se apoia na criação de uma plataforma digital que interage com funcionários, beneficiários e a gerência de forma sincronizada.Cadastro e Gerenciamento de Amostras
+	•	Registro digital direto no sistema, eliminando planilhas.
+	•	Relatórios gerados eletronicamente, sem uso de papel.
+	•	Controle automatizado de validade, localização e status.
+	•	Alertas de vencimento para evitar perdas e atrasos.
 
-Tendo identificado os gargalos dos modelos AS-IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido.
+Destinação das Amostras
+	•	Amostras disponíveis são listadas em catálogo online.
+	•	Notificações automáticas para beneficiários cadastrados.
+	•	Solicitação, agendamento e retirada registrados no sistema.
+	•	Histórico de doações atualizado automaticamente.
 
-Cole aqui os modelos da solução proposta (modelo TO-BE), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina. Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+Oportunidades de Melhoria
+	•	Menos erros e retrabalho.
+	•	Mais transparência e rastreabilidade.
+	•	Redução de papel e processos manuais.
+	•	Acesso facilitado às doações.
 
-Apresente aqui uma descrição da sua proposta, abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente também as oportunidades de melhoria.
+Limites da Solução
+	•	Requer capacitação dos usuários.
+	•	Depende de infraestrutura tecnológica básica.
+	•	Pode haver resistência à mudança no início.
+
+Alinhamento com o Negócio
+	•	Aumenta a eficiência e reduz desperdícios.
+	•	Promove sustentabilidade e digitalização.
+	•	Garante controle e acesso às informações em tempo real.
 
 ## Modelagem dos processos
 
