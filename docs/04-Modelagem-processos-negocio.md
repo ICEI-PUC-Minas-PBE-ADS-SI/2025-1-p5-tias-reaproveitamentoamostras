@@ -8,9 +8,28 @@
 
 ## Modelagem da situação atual (Modelagem AS IS)
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que seu projeto se propõe a resolver. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional.
-
-Com o tema do projeto definido, escolham alguns processos no contexto de negócios. Para ilustrar os potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho. Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+Atualmente, o processo de gerenciamento e destinação de amostras após análise é realizado de forma majoritariamente manual, com alto grau de intervenção humana, ausência de integração sistêmica e propenso a falhas e retrabalho. O fluxo se divide em dois grandes momentos:
+1. Cadastro e gerenciamento de amostras (antes da análise)
+	•	O processo se inicia com a entrega da amostra pelo cliente.
+	•	Um funcionário é responsável por registrar os dados da amostra e do pedido manualmente em uma planilha (possivelmente em Excel).
+	•	Em seguida, a amostra é analisada, e um relatório digital é emitido.
+	•	Esse relatório é impresso com os dados da amostra e da análise.
+	•	A amostra, junto ao relatório impresso, é armazenada por 15 dias.
+	•	Após esse período, a amostra é encaminhada ao processo de destinação.
+2. Destinação das amostras após análise
+	•	O funcionário recebe a amostra analisada e a armazena temporariamente por mais 15 dias.
+	•	Se a amostra tiver um destino definido, a gerência é informada sobre a disponibilidade da amostra.
+	•	Caso contrário, ela permanece armazenada indefinidamente.
+	•	Se houver contato com algum interessado, esse contato é feito de forma informal, e a retirada ou entrega também ocorre de maneira informal.
+	•	Se a amostra não tiver destino nem contato interessado, ela permanece armazenada até vencer.
+	•	Após vencimento, é descartada manualmente.
+Problemas e ineficiências identificadas:
+	•	Forte dependência de processos manuais, o que aumenta o risco de erro e retrabalho.
+	•	Falta de controle automatizado de prazos, tanto para armazenamento quanto para descarte.
+	•	Comunicações informais com interessados e gerência, sem registro formal ou sistematização.
+	•	Ausência de um sistema integrado que centralize dados da amostra, histórico e ações.
+	•	Processo de decisão subjetivo e pouco transparente quanto à destinação da amostra.
+	•	Impressões desnecessárias de relatórios, o que gera consumo de recursos físicos.
 
 ## Descrição geral da proposta (Modelagem TO BE)
 
