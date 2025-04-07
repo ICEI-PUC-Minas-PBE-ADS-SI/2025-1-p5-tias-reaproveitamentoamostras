@@ -69,9 +69,6 @@ A proposta visa digitalizar e automatizar o processo de cadastro, gerenciamento 
 
 ## Indicadores de desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Coloque no mínimo 5 indicadores.
-
-Use o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Fonte de dados** | **Fórmula de cálculo** |
 | ---           | ---           | ---           | ---             | ---             |
@@ -85,6 +82,5 @@ Use o seguinte modelo:
 | Tempo médio de atualização de status | Aumentar a agilidade no controle do sistema| Mede o tempo médio entre o recebimento da amostra e a atualização de status | Sistema de Registro | soma dos tempos de atualização / número de atualizações |
 | Taxa de doações concluídas | Melhorar a efetividade das doações | Mede o percentual de doações efetivamente realizadas | Tabela Doações | (número de doações concluídas / número de amostras disponíveis) * 100 |
 
-
-
-Obs.: todas as informações necessárias para gerar os indicadores devem estar no diagrama de classe a ser apresentado posteriormente.
+| Tempo médio para retirada da amostra | Garantir agilidade na retirada das amostras doadas | Mede o tempo entre a notificação ao beneficiário e a retirada | Sistema de Notificações | soma dos tempos de retirada / número total de retiradas |
+| Percentual de amostras cadastradas | Aumentar o controle e rastreabilidade das amostras | Mede a quantidade de amostras recebidas que são cadastradas no sistema | Sistema de Cadastro | (número de amostras cadastradas / número total de amostras recebidas) * 100 |
