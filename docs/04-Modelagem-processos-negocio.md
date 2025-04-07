@@ -10,7 +10,7 @@
 
 Atualmente, o processo de gerenciamento e destinação de amostras após análise é realizado de forma majoritariamente manual, com alto grau de intervenção humana, ausência de integração sistêmica e propenso a falhas e retrabalho. O fluxo se divide em dois grandes momentos:
 1. Cadastro e gerenciamento de amostras (antes da análise)
-	•	O processo se inicia com a entrega da amostra pelo cliente.
+ - O processo se inicia com a entrega da amostra pelo cliente.
 	•	Um funcionário é responsável por registrar os dados da amostra e do pedido manualmente em uma planilha (possivelmente em Excel).
 	•	Em seguida, a amostra é analisada, e um relatório digital é emitido.
 	•	Esse relatório é impresso com os dados da amostra e da análise.
