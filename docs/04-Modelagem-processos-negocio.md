@@ -9,21 +9,21 @@
 ## Modelagem da situação atual (Modelagem AS IS)
 
 Atualmente, o processo de gerenciamento e destinação de amostras após análise é realizado de forma majoritariamente manual, com alto grau de intervenção humana, ausência de integração sistêmica e propenso a falhas e retrabalho. O fluxo se divide em dois grandes momentos:
- 1. Cadastro e gerenciamento de amostras (antes da análise)
+### 1. Cadastro e gerenciamento de amostras (antes da análise)
  - O processo se inicia com a entrega da amostra pelo cliente.
  - Um funcionário é responsável por registrar os dados da amostra e do pedido manualmente em uma planilha (possivelmente em Excel).
  - Em seguida, a amostra é analisada, e um relatório digital é emitido.
  - Esse relatório é impresso com os dados da amostra e da análise.
  - A amostra, junto ao relatório impresso, é armazenada por 15 dias.
  - Após esse período, a amostra é encaminhada ao processo de destinação.
-2. Destinação das amostras após análise
+### 2. Destinação das amostras após análise
  - O funcionário recebe a amostra analisada e a armazena temporariamente por mais 15 dias.
  - Se a amostra tiver um destino definido, a gerência é informada sobre a disponibilidade da amostra.
  - Caso contrário, ela permanece armazenada indefinidamente.
  - Se houver contato com algum interessado, esse contato é feito de forma informal, e a retirada ou entrega também ocorre de maneira informal.
  - Se a amostra não tiver destino nem contato interessado, ela permanece armazenada até vencer.
  - Após vencimento, é descartada manualmente.
- ### Problemas e ineficiências identificadas:
+### Problemas e ineficiências identificadas:
  - Forte dependência de processos manuais, o que aumenta o risco de erro e retrabalho.
  - Falta de controle automatizado de prazos, tanto para armazenamento quanto para descarte.
  - Comunicações informais com interessados e gerência, sem registro formal ou sistematização.
@@ -38,24 +38,24 @@ A proposta visa digitalizar e automatizar o processo de cadastro, gerenciamento 
  - Controle automatizado de validade, localização e status.
  - Alertas de vencimento para evitar perdas e atrasos.
 
-Destinação das Amostras
+### Destinação das Amostras
  - Amostras disponíveis são listadas em catálogo online.
  - Notificações automáticas para beneficiários cadastrados.
  - Solicitação, agendamento e retirada registrados no sistema.
  - Histórico de doações atualizado automaticamente.
 
-Oportunidades de Melhoria
+### Oportunidades de Melhoria
  - Menos erros e retrabalho.
  - Mais transparência e rastreabilidade.
  - Redução de papel e processos manuais.
  - Acesso facilitado às doações.
 
-Limites da Solução
+### Limites da Solução
  - Requer capacitação dos usuários.
  - Depende de infraestrutura tecnológica básica.
  - Pode haver resistência à mudança no início.
 
-Alinhamento com o Negócio
+### Alinhamento com o Negócio
  - Aumenta a eficiência e reduz desperdícios.
  - Promove sustentabilidade e digitalização.
  - Garante controle e acesso às informações em tempo real.
