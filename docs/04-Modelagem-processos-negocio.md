@@ -9,14 +9,14 @@
 ## Modelagem da situação atual (Modelagem AS IS)
 
 Atualmente, o processo de gerenciamento e destinação de amostras após análise é realizado de forma majoritariamente manual, com alto grau de intervenção humana, ausência de integração sistêmica e propenso a falhas e retrabalho. O fluxo se divide em dois grandes momentos:
-`1`. Cadastro e gerenciamento de amostras (antes da análise)
+1 . Cadastro e gerenciamento de amostras (antes da análise)
  - O processo se inicia com a entrega da amostra pelo cliente.
  - Um funcionário é responsável por registrar os dados da amostra e do pedido manualmente em uma planilha (possivelmente em Excel).
  - Em seguida, a amostra é analisada, e um relatório digital é emitido.
  - Esse relatório é impresso com os dados da amostra e da análise.
  - A amostra, junto ao relatório impresso, é armazenada por 15 dias.
  - Após esse período, a amostra é encaminhada ao processo de destinação.
-`2`. Destinação das amostras após análise
+2 . Destinação das amostras após análise
  - O funcionário recebe a amostra analisada e a armazena temporariamente por mais 15 dias.
  - Se a amostra tiver um destino definido, a gerência é informada sobre a disponibilidade da amostra.
  - Caso contrário, ela permanece armazenada indefinidamente.
