@@ -23,7 +23,7 @@ Atualmente, o processo de gerenciamento e destinação de amostras após anális
  - Se houver contato com algum interessado, esse contato é feito de forma informal, e a retirada ou entrega também ocorre de maneira informal.
  - Se a amostra não tiver destino nem contato interessado, ela permanece armazenada até vencer.
  - Após vencimento, é descartada manualmente.
-   Problemas e ineficiências identificadas:
+   ## Problemas e ineficiências identificadas:
  - Forte dependência de processos manuais, o que aumenta o risco de erro e retrabalho.
  - Falta de controle automatizado de prazos, tanto para armazenamento quanto para descarte.
  - Comunicações informais com interessados e gerência, sem registro formal ou sistematização.
