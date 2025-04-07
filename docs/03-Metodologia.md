@@ -93,6 +93,13 @@ Atualizado em: 06/04/2025
 |  Ana Julia    | Realização do item 4 - Processo 2   | 30/03/2025    | 06/04/2025 | ✔️    | 06/04/2025     |
 |  Ana Julia       | Assinar carta de apresentação  | 30/03/2025    | 06/04/2025 | ✔️    | 30/03/2025     |
 
+Atualizado em: 06/04/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Bruno        | (Item 04) Modelagem dos processos de negócio | 05/03/2025     | 06/04/2025  | ✔️    | 06/04/2025      |
+
+
 
 Legenda:
 - ✔️: terminado
