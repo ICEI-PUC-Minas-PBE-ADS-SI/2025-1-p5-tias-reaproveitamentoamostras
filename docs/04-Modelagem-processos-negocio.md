@@ -69,18 +69,10 @@ A proposta visa digitalizar e automatizar o processo de cadastro, gerenciamento 
 
 ## Indicadores de desempenho
 
-
-| **Indicador** | **Objetivos** | **Descrição** | **Fonte de dados** | **Fórmula de cálculo** |
-| ---           | ---           | ---           | ---             | ---             |
-| Percentual de reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total de atendimentos | Tabela Reclamações | número total de reclamações / número total de atendimentos |
-| Taxa de requisições atendidas | Melhorar a prestação de serviços medindo a porcentagem de requisições atendidas| Mede a % de requisições atendidas na semana | Tabela Solicitações | (número de requisições atendidas / número total de requisições) * 100 |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês | Tabela Pedidos | (número de pedidos entregues / número total de pedidos) * 100 |
-
 | **Indicador** | **Objetivos** | **Descrição** | **Fonte de dados** | **Fórmula de cálculo** |
 | ---           | ---           | ---           | ---             | ---             |
 | Percentual de amostras vencidas | Reduzir o desperdício de amostras | Mede a proporção de amostras que expiram sem serem utilizadas | Tabela Amostras | (número de amostras vencidas / número total de amostras) * 100 |
 | Tempo médio de atualização de status | Aumentar a agilidade no controle do sistema| Mede o tempo médio entre o recebimento da amostra e a atualização de status | Sistema de Registro | soma dos tempos de atualização / número de atualizações |
 | Taxa de doações concluídas | Melhorar a efetividade das doações | Mede o percentual de doações efetivamente realizadas | Tabela Doações | (número de doações concluídas / número de amostras disponíveis) * 100 |
-
 | Tempo médio para retirada da amostra | Garantir agilidade na retirada das amostras doadas | Mede o tempo entre a notificação ao beneficiário e a retirada | Sistema de Notificações | soma dos tempos de retirada / número total de retiradas |
 | Percentual de amostras cadastradas | Aumentar o controle e rastreabilidade das amostras | Mede a quantidade de amostras recebidas que são cadastradas no sistema | Sistema de Cadastro | (número de amostras cadastradas / número total de amostras recebidas) * 100 |
