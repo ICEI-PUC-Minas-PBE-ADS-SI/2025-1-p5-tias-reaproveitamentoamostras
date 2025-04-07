@@ -16,7 +16,7 @@ Atualmente, o processo de gerenciamento e destinação de amostras após anális
  - Esse relatório é impresso com os dados da amostra e da análise.
  - A amostra, junto ao relatório impresso, é armazenada por 15 dias.
  - Após esse período, a amostra é encaminhada ao processo de destinação.
-2 . Destinação das amostras após análise
+2. Destinação das amostras após análise
  - O funcionário recebe a amostra analisada e a armazena temporariamente por mais 15 dias.
  - Se a amostra tiver um destino definido, a gerência é informada sobre a disponibilidade da amostra.
  - Caso contrário, ela permanece armazenada indefinidamente.
