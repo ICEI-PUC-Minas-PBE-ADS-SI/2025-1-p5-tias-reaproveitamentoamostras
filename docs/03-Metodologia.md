@@ -51,6 +51,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Desenvolvedor _back-end_: AlunoK
 - Testes: AlunaZ
 
+#### Sprint 3
+- _Scrum master_: AlunaY
+- Desenvolvedor _front-end_: AlunoX
+- Desenvolvedor _back-end_: AlunoK
+- Testes: AlunaZ
+  
 ###  Quadro de tarefas
 
 > Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
@@ -99,6 +105,16 @@ Atualizado em: 06/04/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Bruno        | (Item 04) Modelagem dos processos de negócio | 05/03/2025     | 06/04/2025  | ✔️    | 06/04/2025      |
 
+
+#### Sprint 3
+
+Atualizado em: 11/05/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Arthur       | Elaboração do Diagrama de Classes | 04/05/2025     | 11/05/2025 | ✔️    | 04/05/2025      |
+| Arthur       | Documentação    | 04/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
+| Arthur       | Realização da Seção "Tecnologias" | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 
 
 Legenda:
