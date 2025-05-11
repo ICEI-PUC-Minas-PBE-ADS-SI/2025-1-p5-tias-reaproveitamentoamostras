@@ -148,7 +148,7 @@ ALTER TABLE doacao ADD FOREIGN KEY(idbeneficiario) REFERENCES beneficiario (idbe
 ALTER TABLE amostra ADD FOREIGN KEY(idproduto) REFERENCES produto (idproduto)
 
 ```
-Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).
+<!--Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).-->
 
 ## Tecnologias
 
