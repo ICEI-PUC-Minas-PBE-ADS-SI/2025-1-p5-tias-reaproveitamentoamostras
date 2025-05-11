@@ -25,7 +25,7 @@ Apresente o modelo de dados por meio de um modelo relacional que contemple todos
 
 O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![modeloER](docs/images/modelo_entidade.jpeg)
+![modeloER](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/850c146e430cc0e92b7d0b5e0e0cb196f80a6203/docs/images/modelo_entidade.png)
 
 ### Esquema relacional
 
