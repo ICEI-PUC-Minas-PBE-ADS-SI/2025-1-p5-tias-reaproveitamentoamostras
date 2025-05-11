@@ -42,45 +42,123 @@ Insira aqui o script de criação das tabelas do banco de dados.
 Veja um exemplo:
 
 ```sql
--- Criação da tabela Medico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+-- Tabela: funcionario
+CREATE TABLE funcionario (
+    idusuario INTEGER PRIMARY KEY,
+    matricula VARCHAR(255) NOT NULL
 );
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
+-- Tabela: usuario
+CREATE TABLE usuario (
+    idusuario INTEGER PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    celular VARCHAR(20),
+    data_cadastro DATE NOT NULL
 );
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
+-- Tabela: administrador
+CREATE TABLE administrador (
+    idusuario INTEGER PRIMARY KEY
 );
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
+-- Tabela: reserva
+CREATE TABLE reserva (
+    idreserva INTEGER PRIMARY KEY,
+    idusuario INTEGER NOT NULL,
+    idbeneficiario INTEGER NOT NULL,
+    idamostra INTEGER NOT NULL,
+    data_reserva DATE NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    FOREIGN KEY (idusuario) REFERENCES usuario(idusuario),
+    FOREIGN KEY (idbeneficiario) REFERENCES beneficiario(idusuario),
+    FOREIGN KEY (idamostra) REFERENCES amostra(idamostra)
 );
 
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+-- Tabela: doacao
+CREATE TABLE doacao (
+    iddoacao INTEGER PRIMARY KEY,
+    idamostra INTEGER NOT NULL,
+    idreserva INTEGER,
+    iddoador INTEGER NOT NULL,
+    idbeneficiario INTEGER NOT NULL,
+    data_doacao DATE NOT NULL,
+    observacao TEXT,
+    FOREIGN KEY (idamostra) REFERENCES amostra(idamostra),
+    FOREIGN KEY (idreserva) REFERENCES reserva(idreserva),
+    FOREIGN KEY (iddoador) REFERENCES usuario(idusuario),
+    FOREIGN KEY (idbeneficiario) REFERENCES beneficiario(idusuario)
 );
+
+-- Tabela: amostra
+CREATE TABLE amostra (
+    idamostra INTEGER PRIMARY KEY,
+    idproduto INTEGER NOT NULL,
+    data_analise DATE,
+    data_vencimento DATE,
+    peso_kg DECIMAL(10, 2),
+    status VARCHAR(50) NOT NULL,
+    FOREIGN KEY (idproduto) REFERENCES produto(idproduto)
+);
+
+-- Tabela: estoque
+CREATE TABLE estoque (
+    idamostra INTEGER PRIMARY KEY,
+    localizacao VARCHAR(255),
+    FOREIGN KEY (idamostra) REFERENCES amostra(idamostra)
+);
+
+-- Tabela: beneficiario
+CREATE TABLE beneficiario (
+    idusuario INTEGER PRIMARY KEY,
+    cpf VARCHAR(14) NOT NULL UNIQUE,
+    endereco VARCHAR(255),
+    motivo_doacao TEXT,
+    FOREIGN KEY (idusuario) REFERENCES usuario(idusuario)
+);
+
+-- Tabela: notificacao
+CREATE TABLE notificacao (
+    idnotificacao INTEGER PRIMARY KEY,
+    idamostra INTEGER NOT NULL,
+    idbeneficiario INTEGER NOT NULL,
+    data_envio DATE NOT NULL,
+    FOREIGN KEY (idamostra) REFERENCES amostra(idamostra),
+    FOREIGN KEY (idbeneficiario) REFERENCES beneficiario(idusuario)
+);
+
+-- Tabela: interessado
+CREATE TABLE interessado (
+    idbeneficiario INTEGER NOT NULL,
+    idproduto INTEGER NOT NULL,
+    PRIMARY KEY (idbeneficiario, idproduto),
+    FOREIGN KEY (idbeneficiario) REFERENCES beneficiario(idusuario),
+    FOREIGN KEY (idproduto) REFERENCES produto(idproduto)
+);
+
+-- Tabela: produto
+CREATE TABLE produto (
+    idproduto INTEGER PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    tipo VARCHAR(100),
+    descricao TEXT,
+    destino VARCHAR(255)
+);
+
+-- Adicionando a chave estrangeira na tabela funcionario referenciando usuario
+ALTER TABLE funcionario
+ADD CONSTRAINT fk_funcionario_usuario
+FOREIGN KEY (idusuario)
+REFERENCES usuario(idusuario);
+
+-- Adicionando a chave estrangeira na tabela administrador referenciando usuario
+ALTER TABLE administrador
+ADD CONSTRAINT fk_administrador_usuario
+FOREIGN KEY (idusuario)
+REFERENCES usuario(idusuario);
 ```
-Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).
+<!--Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).-->
 
 
 ## Tecnologias
@@ -94,6 +172,7 @@ Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](.
 
 ![Diagrama Tecnologias](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/849b91040ddb0ea91dfdddcb458ff6bfc41479a9/docs/images/diagrama_tecnologias.png)
 
+<!--
 
 ## Hospedagem
 
