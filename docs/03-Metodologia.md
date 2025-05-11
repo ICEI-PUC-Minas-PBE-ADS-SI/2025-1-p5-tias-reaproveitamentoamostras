@@ -111,6 +111,8 @@ Atualizado em: 11/05/2024
 | Arthur       | Elaboração do Diagrama de Classes | 04/05/2025     | 11/05/2025 | ✔️    | 04/05/2025      |
 | Arthur       | Realização da página "Tecnologias" | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                |
 | Arthur       | Elaboração do Diagrama de Tecnologias | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
+| Arthur       | Elaboração do Diagrama User FLow | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
+| Arthur       | Preenchimento das Telas do processo 2: Cadastro de Gerenciamento de Amostras na Seção 5 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
