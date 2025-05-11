@@ -128,30 +128,30 @@ Login
 
 Página Inicial (Home)
 
-Visualiza as categorias disponíveis e acessa o catálogo de amostras.
+#### Visualiza as categorias disponíveis e acessa o catálogo de amostras.
 
 📍 Tela: Home
 
 Catálogo de Amostras [user]
 
-Explora as amostras disponíveis com visual de imagem e dados como validade e tipo.
+#### Explora as amostras disponíveis com visual de imagem e dados como validade e tipo.
 
 📍 Tela: Catálogo de Amostras [user]
 
 Visualização Detalhada
 
-Ao clicar em uma amostra, vê as informações completas (descrição, localização, status).
+#### Ao clicar em uma amostra, vê as informações completas (descrição, localização, status).
 
 📍 Tela: Catálogo de Amostras [user] (detalhe)
 
 Perfil de Usuário
 
-Atualiza seus próprios dados de conta e redefine senha, se necessário.
+#### Atualiza seus próprios dados de conta e redefine senha, se necessário.
 
 📍 Tela: Perfil de Usuário
 
 Seção “Sobre Nós”
 
-Conhece o propósito do sistema e sua importância para o reaproveitamento.
+#### Conhece o propósito do sistema e sua importância para o reaproveitamento.
 
 📍 Tela: Sobre Nós
