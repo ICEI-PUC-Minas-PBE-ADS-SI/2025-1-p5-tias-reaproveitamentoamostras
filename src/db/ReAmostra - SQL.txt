@@ -1,0 +1,104 @@
+CREATE TABLE usuario 
+( 
+ idusuario INT PRIMARY KEY AUTO_INCREMENT,  
+ nome VARCHAR(n) NOT NULL,  
+ email VARCHAR(n) NOT NULL,  
+ senha VARCHAR(n) NOT NULL,  
+ celular VARCHAR(n) NOT NULL,  
+ data_cadastro DATE DEFAULT 'GETDATE()',  
+); 
+
+CREATE TABLE administrador 
+( 
+ idusuario INT PRIMARY KEY,  
+); 
+
+CREATE TABLE funcionario 
+( 
+ idusuario INT PRIMARY KEY,  
+ matricula VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE beneficiario 
+( 
+ idusuario INT PRIMARY KEY,  
+ cpf VARCHAR(n) NOT NULL,  
+ endereco VARCHAR(n) NOT NULL,  
+ motivo_doacao VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE produto 
+( 
+ idproduto INT AUTO_INCREMENT,  
+ nome VARCHAR(n) NOT NULL,  
+ tipo INT NOT NULL,  
+ descricao VARCHAR(n) NOT NULL,  
+ destinacao VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE notificacao 
+( 
+ idnotificacao INT PRIMARY KEY AUTO_INCREMENT,  
+ idamostra INT,  
+ idbeneficiario INT,  
+ data_envio DATE NOT NULL DEFAULT 'GETDATE()',  
+); 
+
+CREATE TABLE reserva 
+( 
+ idreserva INT PRIMARY KEY AUTO_INCREMENT,  
+ idfuncionario INT,  
+ idbeneficiario INT,  
+ idamostra INT PRIMARY KEY,  
+ data_reserva DATE NOT NULL,  
+ status VARCHAR(n) NOT NULL DEFAULT 'pendente',  
+); 
+
+CREATE TABLE interessado 
+( 
+ idbeneficiario INT,  
+ idproduto INT,  
+); 
+
+CREATE TABLE estoque 
+( 
+ idamostra INT PRIMARY KEY,  
+ localizacao VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE doacao 
+( 
+ idamostra INT,  
+ idreserva INT,  
+ iddoacao INT PRIMARY KEY AUTO_INCREMENT,  
+ idfuncionario INT,  
+ idbeneficiario INT,  
+ data_doacao DATE NOT NULL DEFAULT 'GETDATE()',  
+ observacao VARCHAR(n),  
+); 
+
+CREATE TABLE amostra 
+( 
+ idproduto INT,  
+ idamostra INT PRIMARY KEY AUTO_INCREMENT,  
+ data_analise DATE NOT NULL,  
+ data_vencimento DATE NOT NULL,  
+ peso_kg FLOAT NOT NULL,  
+ status VARCHAR(n) NOT NULL,  
+); 
+
+ALTER TABLE administrador ADD FOREIGN KEY(idusuario) REFERENCES usuario (idusuario)
+ALTER TABLE funcionario ADD FOREIGN KEY(idusuario) REFERENCES usuario (idusuario)
+ALTER TABLE beneficiario ADD FOREIGN KEY(idusuario) REFERENCES usuario (idusuario)
+ALTER TABLE notificacao ADD FOREIGN KEY(idnotificacao) REFERENCES undefined (idnotificacao)
+ALTER TABLE notificacao ADD FOREIGN KEY(idamostra) REFERENCES amostra (idamostra)
+ALTER TABLE notificacao ADD FOREIGN KEY(idbeneficiario) REFERENCES beneficiario (idbeneficiario)
+ALTER TABLE reserva ADD FOREIGN KEY(idbeneficiario) REFERENCES beneficiario (idbeneficiario)
+ALTER TABLE interessado ADD FOREIGN KEY(idbeneficiario) REFERENCES beneficiario (idbeneficiario)
+ALTER TABLE interessado ADD FOREIGN KEY(idproduto) REFERENCES produto (idproduto)
+ALTER TABLE estoque ADD FOREIGN KEY(idamostra) REFERENCES amostra (idamostra)
+ALTER TABLE doacao ADD FOREIGN KEY(idamostra) REFERENCES amostra (idamostra)
+ALTER TABLE doacao ADD FOREIGN KEY(idreserva) REFERENCES reserva (idreserva)
+ALTER TABLE doacao ADD FOREIGN KEY(idfuncionario) REFERENCES funcionario (idfuncionario)
+ALTER TABLE doacao ADD FOREIGN KEY(idbeneficiario) REFERENCES beneficiario (idbeneficiario)
+ALTER TABLE amostra ADD FOREIGN KEY(idproduto) REFERENCES produto (idproduto)
