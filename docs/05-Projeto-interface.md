@@ -13,7 +13,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 -->
 
-![user flow](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/e1c6bbd36da0239410397ccad11cb368b796ceeb/docs/images/user_flow_reamostra.png)
+![userflow](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/user_flow_reamostra.png)
 
 <!--
 > **Links úteis**:
@@ -48,7 +48,7 @@ Página Inicial
 ![Página Inicial](images/homepage.png)
 
 Página Catálago
-![Página Catálago](images/catalago.png)
+![Página Catálago](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/catalago.png)
 
 Página Catálago Reservar Grãos
 ![Página Catálago Reservar Grãos](images/reservar.png)
@@ -67,7 +67,8 @@ Página Catálago Admin Adicionar Grãos
 
 Página Histórico Admin 
 ![Página Histórico Admin ](images/historicoadmin.png)
- 
+
+<!--
 > **Links úteis**:
 > - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)
 > - [Protótipos vs wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
@@ -77,7 +78,7 @@ Página Histórico Admin
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 > - [Axure](https://www.axure.com/edu) (Licença Educacional)
 > - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
-
+-->
 
 ## Interface do sistema
 
@@ -94,7 +95,7 @@ Descrição da tela principal do sistema.
 
 Neste protótipo de tela, após a análise das amostras, o usúario define a destinação das mesmas.
 
-![tela7](cole o permalink da imagem na pasta docs>images )
+> insira aqui a tela da atividade 1
 
 Descrição da tela relativa à atividade 2 do processo 1.
 
@@ -103,10 +104,10 @@ Descrição da tela relativa à atividade 2 do processo 1.
 
 ### Telas do processo 2: Cadastro de Gerenciamento de Amostras
 
-Descrição da tela relativa à atividade 1 do processo 2.
+Na atividade 1 do processo de "Cadastro de Gerenciamento de Amostras", o usuário administrador visualiza todas as amostras já cadastradas.
 
-> Insira aqui a tela da atividade 1
+![atividade1](images/catalagoadmin.png)
 
-Descrição da tela relativa à atividade 2 do processo 2.
+Na atividade 2 do processo "Cadastro de Gerenciamento de Amostras", o usuário administrador interage com a aplicação para adicionar um novo cadastro de amostra ou remover um cadastro já existente.
 
-> Insira aqui a tela da atividade 2
+![atividade2](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/pag1.jpg)
