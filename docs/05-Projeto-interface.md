@@ -114,44 +114,86 @@ Na atividade 2 do processo "Cadastro de Gerenciamento de Amostras", o usuário a
 
 ![atividade2](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/pag1.jpg)
 
-## Jornada do Usuário
+## Jornada do Usuário (Pessoa comum)
 
-Descrição:
 Joana é uma funcionária que utiliza o sistema para consultar amostras disponíveis e verificar informações relevantes. Ela não pode alterar os dados do sistema.
 
 Etapas:
-Login
+#### Login
 
-#### Joana acessa o sistema com sua conta de usuária comum.
+Joana acessa o sistema com sua conta de usuária comum.
 
 📍 Tela: Login
 
-Página Inicial (Home)
+#### Página Inicial (Home)
 
-#### Visualiza as categorias disponíveis e acessa o catálogo de amostras.
+Visualiza as categorias disponíveis e acessa o catálogo de amostras.
 
 📍 Tela: Home
 
-Catálogo de Amostras [user]
+#### Catálogo de Amostras [user]
 
-#### Explora as amostras disponíveis com visual de imagem e dados como validade e tipo.
+Explora as amostras disponíveis com visual de imagem e dados como validade e tipo.
 
 📍 Tela: Catálogo de Amostras [user]
 
-Visualização Detalhada
+#### Visualização Detalhada
 
-#### Ao clicar em uma amostra, vê as informações completas (descrição, localização, status).
+Ao clicar em uma amostra, vê as informações completas (descrição, localização, status).
 
 📍 Tela: Catálogo de Amostras [user] (detalhe)
 
-Perfil de Usuário
+#### Perfil de Usuário
 
-#### Atualiza seus próprios dados de conta e redefine senha, se necessário.
+Atualiza seus próprios dados de conta e redefine senha, se necessário.
 
 📍 Tela: Perfil de Usuário
 
-Seção “Sobre Nós”
+#### Seção “Sobre Nós”
 
-#### Conhece o propósito do sistema e sua importância para o reaproveitamento.
+Conhece o propósito do sistema e sua importância para o reaproveitamento.
+
+📍 Tela: Sobre Nós
+
+## Jornada do Usuário (Administrador)
+
+Bruno é um técnico responsável por cadastrar, editar e monitorar amostras reaproveitáveis no sistema ReAmostra. Ele precisa de controle total sobre os dados e histórico das movimentações.
+
+Etapas:
+#### Login
+
+Bruno acessa a tela de login e entra no sistema com credenciais de administrador.
+
+📍 Tela: Login
+
+#### Página Inicial (Home)
+
+Vê uma visão geral do sistema e acessa rapidamente o catálogo de amostras ou histórico.
+
+📍 Tela: Home
+
+#### Catálogo de Amostras [admin]
+
+Cadastra, edita ou remove amostras disponíveis.
+
+Pode inserir dados como tipo, validade, lote e imagens.
+
+📍 Tela: Catálogo de Amostras [admin]
+
+#### Histórico de Ações
+
+Consulta e audita registros de movimentações de amostras, verificando quem fez cada ação.
+
+📍 Tela: Histórico [admin]
+
+#### Perfil de Usuário
+
+Atualiza senha, e-mail ou outras preferências administrativas.
+
+📍 Tela: Perfil de Usuário
+
+#### Seção “Sobre Nós”
+
+Acessa conteúdo institucional do projeto, útil para apresentações ou relatórios.
 
 📍 Tela: Sobre Nós
