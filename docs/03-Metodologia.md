@@ -116,6 +116,9 @@ Atualizado em: 11/05/2024
 | Arthur       | Documentação    | 04/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 | Arthur       | Realização da Seção "Tecnologias" | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Ana Julia       | Criação dos protótipos de tela | 28/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
 
 Legenda:
 - ✔️: terminado
