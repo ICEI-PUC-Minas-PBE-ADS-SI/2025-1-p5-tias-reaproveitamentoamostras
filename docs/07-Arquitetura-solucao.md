@@ -170,7 +170,7 @@ REFERENCES usuario(idusuario);
 | SGBD           | MySQL           |
 | Deploy         | Vercel          |
 
-![Diagrama Tecnologias](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/849b91040ddb0ea91dfdddcb458ff6bfc41479a9/docs/images/diagrama_tecnologias.png)
+![DiagramaTecnologias](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/849b91040ddb0ea91dfdddcb458ff6bfc41479a9/docs/images/diagrama_tecnologias.png)
 
 <!--
 
