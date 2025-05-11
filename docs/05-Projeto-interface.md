@@ -113,3 +113,45 @@ Na atividade 1 do processo de "Cadastro de Gerenciamento de Amostras", o usuári
 Na atividade 2 do processo "Cadastro de Gerenciamento de Amostras", o usuário administrador interage com a aplicação para adicionar um novo cadastro de amostra ou remover um cadastro já existente.
 
 ![atividade2](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/pag1.jpg)
+
+## Jornada do Usuário
+
+Descrição:
+Joana é uma funcionária que utiliza o sistema para consultar amostras disponíveis e verificar informações relevantes. Ela não pode alterar os dados do sistema.
+
+Etapas:
+Login
+
+Joana acessa o sistema com sua conta de usuária comum.
+
+📍 Tela: Login
+
+Página Inicial (Home)
+
+Visualiza as categorias disponíveis e acessa o catálogo de amostras.
+
+📍 Tela: Home
+
+Catálogo de Amostras [user]
+
+Explora as amostras disponíveis com visual de imagem e dados como validade e tipo.
+
+📍 Tela: Catálogo de Amostras [user]
+
+Visualização Detalhada
+
+Ao clicar em uma amostra, vê as informações completas (descrição, localização, status).
+
+📍 Tela: Catálogo de Amostras [user] (detalhe)
+
+Perfil de Usuário
+
+Atualiza seus próprios dados de conta e redefine senha, se necessário.
+
+📍 Tela: Perfil de Usuário
+
+Seção “Sobre Nós”
+
+Conhece o propósito do sistema e sua importância para o reaproveitamento.
+
+📍 Tela: Sobre Nós
