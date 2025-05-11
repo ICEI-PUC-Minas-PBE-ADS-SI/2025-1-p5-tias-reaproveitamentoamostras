@@ -118,6 +118,10 @@ Atualizado em: 11/05/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Ana Julia       | Criação dos protótipos de tela | 28/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Bruno         | Realização da Jornada do Usuário (processo 5) | 10/04/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
