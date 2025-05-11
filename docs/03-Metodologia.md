@@ -113,6 +113,7 @@ Atualizado em: 11/05/2024
 | Arthur       | Elaboração do Diagrama de Tecnologias | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 | Arthur       | Elaboração do Diagrama User FLow | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 | Arthur       | Preenchimento das Telas do processo 2: Cadastro de Gerenciamento de Amostras na Seção 5 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
+| Arthur       | Código em SQL do Modelo Físico do Banco de Dados | 06/05/2025     | 11/05/2025 | ✔️    | 10/05/2025                | 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
