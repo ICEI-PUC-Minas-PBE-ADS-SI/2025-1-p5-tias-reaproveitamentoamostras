@@ -113,8 +113,8 @@ Atualizado em: 11/05/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Arthur       | Elaboração do Diagrama de Classes | 04/05/2025     | 11/05/2025 | ✔️    | 04/05/2025      |
-| Arthur       | Documentação    | 04/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
-| Arthur       | Realização da Seção "Tecnologias" | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
+| Arthur       | Realização da página "Tecnologias" | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                |
+| Arthur       | Elaboração do Diagrama de Tecnologias | 08/05/2025     | 11/05/2025 | ✔️    | 11/05/2025                | 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
