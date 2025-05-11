@@ -122,7 +122,7 @@ Joana é uma funcionária que utiliza o sistema para consultar amostras disponí
 Etapas:
 Login
 
-Joana acessa o sistema com sua conta de usuária comum.
+#### Joana acessa o sistema com sua conta de usuária comum.
 
 📍 Tela: Login
 
