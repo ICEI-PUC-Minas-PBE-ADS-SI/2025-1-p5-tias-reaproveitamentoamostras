@@ -58,18 +58,18 @@ Descrição da tela principal do sistema.
 > Insira aqui a tela principal do sistema
 
 
-###  Telas do processo 1
+###  Telas do processo 1: Destinação das Amostras após Análise
 
-Descrição da tela relativa à atividade 1 do processo 1.
+Neste protótipo de tela, após a análise das amostras, o usúario define a destinação das mesmas.
 
-> Insira aqui a tela da atividade 1
+![tela7](cole o permalink da imagem na pasta docs>images )
 
 Descrição da tela relativa à atividade 2 do processo 1.
 
 > Insira aqui a tela da atividade 2
 
 
-### Telas do processo 2
+### Telas do processo 2: Cadastro de Gerenciamento de Amostras
 
 Descrição da tela relativa à atividade 1 do processo 2.
 
