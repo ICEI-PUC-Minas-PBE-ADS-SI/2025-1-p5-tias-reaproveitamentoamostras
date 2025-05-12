@@ -124,6 +124,10 @@ Atualizado em: 11/05/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Bruno         | Realização da Jornada do Usuário (processo 5) | 10/04/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Marcos         | Slides | 10/04/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
