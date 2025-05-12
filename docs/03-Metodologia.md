@@ -117,7 +117,7 @@ Atualizado em: 11/05/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Ana Julia       | Criação dos protótipos de tela | 28/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
-| Ana Julia       | Preenchimento do Wireframe na Seção 5 | 28/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
+| Ana Julia       | Preenchimento do Wireframe na Seção 5 | 10/05/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
