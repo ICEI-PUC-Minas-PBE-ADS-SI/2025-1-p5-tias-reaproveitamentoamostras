@@ -130,7 +130,7 @@ Atualizado em: 11/05/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | João Santos       | Criação dos protótipos de tela | 29/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
-| João Santos       | Preenchimento do Wireframe na Seção 5 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
+| João Santos       | Preenchimento do Wireframe na Seção 6 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
 
 Legenda:
 - ✔️: terminado
