@@ -119,7 +119,6 @@ Atualizado em: 11/05/2024
 | Ana Julia       | Criação dos protótipos de tela | 28/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
 | Ana Julia       | Preenchimento do Wireframe na Seção 5 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
 
-
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Bruno         | Realização da Jornada do Usuário (processo 5) | 10/04/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
@@ -127,6 +126,11 @@ Atualizado em: 11/05/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Marcos         | Slides | 10/04/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| João Santos       | Criação dos protótipos de tela | 29/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
+| João Santos       | Preenchimento do Wireframe na Seção 5 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
 
 Legenda:
 - ✔️: terminado
