@@ -46,16 +46,16 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Documentação: Ana Julia, Bruno, Marcos
 
 #### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Viviane
+- Desenvolvedor _front-end_: Marcos
+- Desenvolvedor _back-end_: Ana Julia
+- Testes: Bruno, Arthur
 
 #### Sprint 3
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Viviane
+- Desenvolvedor _front-end_: Marcos
+- Desenvolvedor _back-end_:  Ana Julia
+- Testes: Bruno, Arthur
   
 ###  Quadro de tarefas
 
@@ -168,9 +168,9 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/tree/main/src/front                            |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/tree/main/docs                            |
 | Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | Vercel                             | http://....                            |
+| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras                            |
+| Hospedagem                          | Vercel                             | https://reamostra-git-main-marvinreissantos-projects.vercel.app/                            |
  
