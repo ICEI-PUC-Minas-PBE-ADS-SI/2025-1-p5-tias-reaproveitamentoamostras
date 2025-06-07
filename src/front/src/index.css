@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Merriweather:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 44 52% 98%;
+    --foreground: 79 39% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 79 39% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 79 39% 18%;
+
+    --primary: 83 84% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 32 65% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 60 15% 90%;
+    --muted-foreground: 79 5% 40%;
+
+    --accent: 50 91% 85%;
+    --accent-foreground: 30 35% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 79 10% 85%;
+    --input: 79 10% 85%;
+    --ring: 83 84% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 79 39% 8%;
+    --foreground: 60 15% 90%;
+
+    --card: 79 39% 12%;
+    --card-foreground: 60 15% 90%;
+
+    --popover: 79 39% 12%;
+    --popover-foreground: 60 15% 90%;
+
+    --primary: 83 84% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 32 65% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 79 39% 20%;
+    --muted-foreground: 60 15% 70%;
+
+    --accent: 79 39% 20%;
+    --accent-foreground: 60 15% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 79 39% 25%;
+    --input: 79 39% 25%;
+    --ring: 83 84% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold;
+  }
+}
