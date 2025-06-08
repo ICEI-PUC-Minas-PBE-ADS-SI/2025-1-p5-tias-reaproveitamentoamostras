@@ -10,14 +10,12 @@ const About = () => {
       
       {/* Hero Section */}
       <section className="relative bg-[url('/images/banner-graos.webp')] bg-cover bg-center py-20">
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="container mx-auto px-4 relative z-10 text-white">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Quem Somos
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Quem Somos</h1>
             <p className="text-xl">
-              Conheça nossa missão e como transformamos amostras de grãos analisadas em ações sociais concretas.
+              Descubra como transformamos amostras de grãos em ações sociais que fazem a diferença.
             </p>
           </div>
         </div>
@@ -35,7 +33,8 @@ const About = () => {
             <p className="text-lg mb-10">
               Acreditamos que pequenas ações podem gerar grandes impactos. Por meio de um sistema eficiente, garantimos que essas amostras cheguem de forma segura e organizada às instituições que mais precisam.
             </p>
-            
+
+            {/* Nossa História */}
             <h2 className="text-3xl font-bold mb-6">Nossa História</h2>
             <p className="text-lg mb-6">
               A ideia da ReAmostra surgiu dentro da Clastec ao percebermos que toneladas de amostras de grãos, após análises laboratoriais, eram descartadas, apesar de estarem em perfeito estado para consumo.
@@ -44,7 +43,8 @@ const About = () => {
               Motivados pelo compromisso social e ambiental, estruturamos um projeto que conecta esse material excedente a ONGs, bancos de alimentos e outras instituições que atuam no combate à fome. 
               Desde então, temos expandido nossa atuação e impacto social.
             </p>
-            
+
+            {/* Como Funcionamos */}
             <h2 className="text-3xl font-bold mb-6">Como Funcionamos</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
               <div className="bg-grain-50 p-6 rounded-lg">
@@ -57,6 +57,8 @@ const About = () => {
                   <li>Monitoramos e divulgamos o impacto das doações</li>
                 </ul>
               </div>
+
+              {/* Para Beneficiários */}
               <div className="bg-earth-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-4">Para Beneficiários</h3>
                 <ul className="list-disc pl-5 space-y-2">
@@ -68,7 +70,8 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            
+
+            {/* Nossos Valores */}
             <h2 className="text-3xl font-bold mb-6">Nossos Valores</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
               <div className="text-center p-6 border border-border rounded-lg">
@@ -77,6 +80,8 @@ const About = () => {
                   Atuamos com foco na responsabilidade social, apoiando quem mais precisa.
                 </p>
               </div>
+
+              {/* Nosso Impacto */}
               <div className="text-center p-6 border border-border rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Sustentabilidade</h3>
                 <p className="text-muted-foreground">
