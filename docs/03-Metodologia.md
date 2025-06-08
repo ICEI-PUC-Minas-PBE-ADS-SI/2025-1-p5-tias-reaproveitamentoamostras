@@ -49,13 +49,13 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - _Scrum master_: Viviane
 - Desenvolvedor _front-end_: Marcos
 - Desenvolvedor _back-end_: Ana Julia
-- Testes: Bruno, Arthur
+- Testes: Bruno, Arthur, Joao
 
 #### Sprint 3
 - _Scrum master_: Viviane
 - Desenvolvedor _front-end_: Marcos
 - Desenvolvedor _back-end_:  Ana Julia
-- Testes: Bruno, Arthur
+- Testes: Bruno, Arthur, Joao
   
 ###  Quadro de tarefas
 
@@ -146,6 +146,10 @@ Atualizado em: 08/06/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Ana Julia    | Alteração de melhoria de depuração na parte de UserProfile| 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
 | Ana Julia      | Melhoria de estilização na parte de userdashboard | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025       |
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| João       | Testes na aplicação | 06/06/2025     | 08/06/2025 | ✔️    | 07/06/2025      |
 
 Legenda:
 - ✔️: terminado
