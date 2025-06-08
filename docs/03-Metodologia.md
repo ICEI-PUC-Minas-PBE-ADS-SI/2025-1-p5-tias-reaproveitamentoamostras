@@ -142,6 +142,11 @@ Atualizado em: 08/06/2025
 | Arthur       | Melhoria de Layout na page About | 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025                |
 | Arthur       | Elaboração dos slides para apresentação | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025                | 
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Ana Julia    | Alteração de melhoria de depuração na parte de UserProfile| 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
+| Ana Julia      | Melhoria de estilização na parte de userdashboard | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025       |
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
