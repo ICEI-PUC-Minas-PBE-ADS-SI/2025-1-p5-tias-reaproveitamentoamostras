@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
@@ -13,6 +12,7 @@ const UserProfile = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
+    console.debug('Verificando autenticação do usuário...');
     if (!isAuthenticated) {
       navigate('/login');
     }
@@ -24,8 +24,8 @@ const UserProfile = () => {
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <h2 className="text-xl font-semibold mb-2">Carregando...</h2>
-            <p className="text-muted-foreground">Aguarde um momento.</p>
+            <h2 className="text-xl font-semibold mb-2">Carregando informações do perfil...</h2>
+            <p className="text-muted-foreground">Aguarde enquanto carregamos os dados necessários.</p>
           </div>
         </div>
         <Footer />
@@ -39,8 +39,10 @@ const UserProfile = () => {
       
       <div className="flex-1 py-8">
         <div className="container mx-auto px-4">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold mb-2">Meu Perfil</h1>
+          <div className="mb-8"></div>
+            <h1 className="text-3xl font-bold mb-2">
+              Meu Perfil {currentUser ? `- ${currentUser.name}` : ''}
+            </h1>
             <p className="text-muted-foreground">
               Gerencie suas informações pessoais e dados de contato.
             </p>
