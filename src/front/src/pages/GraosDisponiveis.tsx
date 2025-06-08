@@ -125,8 +125,8 @@ const GraosDisponiveis = () => {
                     </div>
                     <h3 className="text-2xl font-bold mb-3">Nenhum grão disponível</h3>
                     <p className="text-muted-foreground">
-                      No momento não há grãos disponíveis para doação. 
-                      Verifique novamente em breve.
+                      Neste momento, não há grãos disponíveis para doação. 
+                      Por favor, verifique novamente em breve.
                     </p>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const GraosDisponiveis = () => {
         </div>
       </section>
       
-      {/* Info Section */}
+      {/* Information Section */}
       <section className="py-16 bg-white border-t">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -164,7 +164,7 @@ const GraosDisponiveis = () => {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Candidate-se</h3>
                 <p className="text-sm text-muted-foreground">
-                  Clique em "Candidatar-se" e aguarde a análise da sua solicitação.
+                  Por favor, clique em "Candidatar-se" e aguarde a análise da sua solicitação.
                 </p>
               </div>
               
