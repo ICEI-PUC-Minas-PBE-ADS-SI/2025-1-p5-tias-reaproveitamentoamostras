@@ -140,7 +140,7 @@ Atualizado em: 08/06/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Arthur       | Alteração de Copy na page GraosDisponiveis | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
 | Arthur       | Melhoria de Layout na page About | 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025                |
-| Arthur       | Elaboração dos slides para apresentação | 08/05/2025     | 08/06/2025 | ✔️    | 08/06/2025                | 
+| Arthur       | Elaboração dos slides para apresentação | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025                | 
 
 Legenda:
 - ✔️: terminado
