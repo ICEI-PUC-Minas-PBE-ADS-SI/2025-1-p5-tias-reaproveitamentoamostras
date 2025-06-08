@@ -83,7 +83,7 @@ Atualizado em: 16/03/2025
 
 #### Sprint 2
 
-Atualizado em: 06/04/2024
+Atualizado em: 06/04/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -104,7 +104,7 @@ Atualizado em: 06/04/2024
 
 #### Sprint 3
 
-Atualizado em: 11/05/2024
+Atualizado em: 11/05/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -131,6 +131,16 @@ Atualizado em: 11/05/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | João Santos       | Criação dos protótipos de tela | 29/04/2025     | 11/05/2025 | ✔️    | 10/05/2025      |
 | João Santos       | Preenchimento do Wireframe na Seção 6 | 11/05/2025     | 11/05/2025 | ✔️    | 11/05/2025      |
+
+#### Sprint 4
+
+Atualizado em: 08/06/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Arthur       | Alteração de Copy na page GraosDisponiveis | 08/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
+| Arthur       | Melhoria de Layout na page About | 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025                |
+| Arthur       | Elaboração dos slides para apresentação | 08/05/2025     | 08/06/2025 | ✔️    | 08/06/2025                | 
 
 Legenda:
 - ✔️: terminado
