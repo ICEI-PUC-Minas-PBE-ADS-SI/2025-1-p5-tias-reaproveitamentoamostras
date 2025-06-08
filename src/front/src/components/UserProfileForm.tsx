@@ -15,8 +15,8 @@ interface UserProfileFormProps {
 const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTime = false }) => {
   const { profile, saveProfile } = useUserProfile();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  
-  const [formData, setFormData] = useState({
+
+  const initialFormData = {
     address_street: '',
     address_number: '',
     address_complement: '',
@@ -27,21 +27,15 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
     phone: '',
     donation_motivation: '',
     profile_completed: false,
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   useEffect(() => {
     if (profile) {
       setFormData({
-        address_street: profile.address_street || '',
-        address_number: profile.address_number || '',
-        address_complement: profile.address_complement || '',
-        address_neighborhood: profile.address_neighborhood || '',
-        address_city: profile.address_city || '',
-        address_state: profile.address_state || '',
-        address_zip_code: profile.address_zip_code || '',
-        phone: profile.phone || '',
-        donation_motivation: profile.donation_motivation || '',
-        profile_completed: profile.profile_completed,
+        ...initialFormData,
+        ...profile,
       });
     }
   }, [profile]);
@@ -55,28 +49,28 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Validar campos obrigatórios
+
     const requiredFields = [
-      'address_street', 'address_number', 'address_neighborhood', 
-      'address_city', 'address_state', 'address_zip_code', 
+      'address_street', 'address_number', 'address_neighborhood',
+      'address_city', 'address_state', 'address_zip_code',
       'phone', 'donation_motivation'
     ];
-    
+
     const missingFields = requiredFields.filter(field => !formData[field as keyof typeof formData].toString().trim());
-    
     if (missingFields.length > 0) {
+      alert(`Por favor, preencha os campos obrigatórios: ${missingFields.join(', ')}`);
       return;
     }
-    
+
     setIsSubmitting(true);
-    
+
     const success = await saveProfile(formData);
-    
-    if (success && onComplete) {
+    if (!success) {
+      alert('Erro ao salvar o perfil. Tente novamente.');
+    } else if (onComplete) {
       onComplete();
     }
-    
+
     setIsSubmitting(false);
   };
 
@@ -98,7 +92,7 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
             <h3 className="text-lg font-medium">Endereço</h3>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="md:col-span-2">
                 <Label htmlFor="address_street">Rua/Avenida *</Label>
@@ -120,7 +114,7 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
                 />
               </div>
             </div>
-            
+
             <div>
               <Label htmlFor="address_complement">Complemento</Label>
               <Input
@@ -130,7 +124,7 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
                 placeholder="Apartamento, bloco, etc."
               />
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="address_neighborhood">Bairro *</Label>
@@ -152,7 +146,7 @@ const UserProfileForm: React.FC<UserProfileFormProps> = ({ onComplete, isFirstTi
                 />
               </div>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="address_state">Estado *</Label>
