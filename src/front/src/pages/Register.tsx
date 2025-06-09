@@ -86,7 +86,7 @@ const Register = () => {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Criar Conta</CardTitle>
               <CardDescription>
-                Cadastre-se para se candidatar a receber doações
+                Cadastre-se para participar do programa de doações
               </CardDescription>
             </CardHeader>
             
@@ -96,7 +96,7 @@ const Register = () => {
                   <Label htmlFor="name">Nome completo</Label>
                   <Input
                     id="name"
-                    placeholder="Seu nome completo"
+                    placeholder="Digite seu nome completo"
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -104,11 +104,11 @@ const Register = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">E-mail</Label>
                   <Input
                     id="email"
                     type="email"
-                    placeholder="seu@email.com"
+                    placeholder="Endereço de e-mail válido"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -120,6 +120,7 @@ const Register = () => {
                   <Input
                     id="password"
                     type="password"
+                    placeholder="Informe uma senha segura"
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
@@ -127,7 +128,7 @@ const Register = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="confirmPassword">Confirmar senha</Label>
+                  <Label htmlFor="confirmPassword">Confirme sua senha</Label>
                   <Input
                     id="confirmPassword"
                     type="password"
@@ -148,7 +149,7 @@ const Register = () => {
                       htmlFor="terms"
                       className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                     >
-                      Aceito os termos e condições
+                      Aceitar os termos e condições
                     </label>
                     <p className="text-sm text-muted-foreground">
                       Concordo em fornecer meus dados pessoais para participar do programa de doações.
