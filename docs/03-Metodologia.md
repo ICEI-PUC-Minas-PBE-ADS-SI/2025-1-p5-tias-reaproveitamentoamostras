@@ -151,6 +151,11 @@ Atualizado em: 08/06/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | João       | Testes na aplicação | 06/06/2025     | 08/06/2025 | ✔️    | 07/06/2025      |
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Bruno       | Melhoria no layout de formatação nas paginas de login e cadastro | 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
+
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
