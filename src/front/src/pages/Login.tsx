@@ -52,18 +52,18 @@ const Login = () => {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Entrar</CardTitle>
               <CardDescription>
-                Acesse sua conta para gerenciar suas candidaturas
+                Entre na sua conta para continuar
               </CardDescription>
             </CardHeader>
             
             <form onSubmit={handleSubmit}>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">Informe seu e-mail</Label>
                   <Input
                     id="email"
                     type="email"
-                    placeholder="seu@email.com"
+                    placeholder="Seu e-mail cadastrado"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -72,7 +72,7 @@ const Login = () => {
                 
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
-                    <Label htmlFor="password">Senha</Label>
+                    <Label htmlFor="password">Informa sua senha</Label>
                     <Link to="#" className="text-sm text-primary hover:underline">
                       Esqueceu a senha?
                     </Link>
@@ -80,6 +80,7 @@ const Login = () => {
                   <Input
                     id="password"
                     type="password"
+                    placeholder="Sua senha cadastrada"
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
