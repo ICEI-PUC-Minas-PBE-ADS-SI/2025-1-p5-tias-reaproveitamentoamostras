@@ -35,7 +35,7 @@ Por exemplo:
 | Requisito associado | RF-004 - Disponibilizar um catálogo com informações sobre as amostras disponíveis. |
 | Objetivo do teste | Verificar se o usuário consegue visualizar amostras disponiveis. |
 | Passos | - Acessar o navegador <br> - Informar o endereço do site https://reamostra-git-main-marvinreissantos-projects.vercel.app <br> - Clicar no botão "Grãos Disponíveis" |
-| Critério de êxito | - É possivel ver exemplos de grão disponíveis, com a suas respetivas informações: nome, kg, descrição e foto |
+| Critério de êxito | - É possivel ver exemplos de grãos disponíveis, com a suas respetivas informações: nome, kg, descrição e foto |
 | Responsável pela elaboração do caso de teste | João Vinícius |
 
 
