@@ -13,7 +13,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 -->
 
-![userflow](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/user_flow_reamostra.png)
+![userflow](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/userflow.png)
 
 <!--
 > **Links úteis**:
@@ -54,6 +54,9 @@ Página Catálago
 
 Página Perfil
 ![Página Perfil](images/meuperfil.png)
+
+Página Portal do Candidato
+![Página Perfil](images/portalcandidato.png)
 
 Página Sobre Nós
 ![Página Sobre Nós](images/quemsomos.png)
