@@ -53,7 +53,7 @@ Página Catálago
 ![Página Catálago](images/catalagoss.png)
 
 Página Perfil
-![Página Perfil](images/perfil.png)
+![Página Perfil](images/meuperfil.png)
 
 Página Sobre Nós
 ![Página Sobre Nós](images/sobrenos.png)
