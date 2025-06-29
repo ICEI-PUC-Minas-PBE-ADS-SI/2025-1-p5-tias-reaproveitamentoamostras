@@ -1,28 +1,67 @@
 # Registro de testes de software
 
-<span style="color:red">Pré-requisitos: <a href="05-Projeto-interface.md"> Projeto de interface</a></span>, <a href="08-Plano-testes-software.md"> Plano de testes de software</a>
-
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano de testes de software</a>, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos. Observação: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso.
+Para cada caso de teste definido no <a href="08-Plano-testes-software.md">Plano de testes de software</a>, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos. Observação: cada caso de teste deverá possuir uma imagem para caracterizar uma evidência do referido caso.
 
-| **Caso de teste** 	| **CT-001 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Registro de evidência | [www.teste.com.br/drive/ct-01](http://www.teste.com.br/drive/ct-01) |
+---
 
-| **Caso de teste** 	| **CT-002 – Realizar login** 	|
-|:---:	|:---:	|
-| Requisito associado | RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login. |
-| Registro de evidência | [www.teste.com.br/drive/ct-02](http://www.teste.com.br/drive/ct-02) |
+| **Caso de teste**          | **CT-001 – Cadastro de Usuário**                                                   |
+|---------------------------|-------------------------------------------------------------------------------------|
+| Requisito associado       | RF-001 - Permitir o cadastro de usuários interessados em receber doações.           |
+| Registro de evidência     | [Link para evidência CT-001](./images/evidencia-1.PNG)                      |
 
+---
 
-> **Links úteis**:
-> - [Screencast: entenda o que é e como gravar vídeos com ele](https://rockcontent.com/br/blog/screencast/) 
+| **Caso de teste**          | **CT-002 – Login de Usuário**                                                      |
+|---------------------------|-------------------------------------------------------------------------------------|
+| Requisito associado       | RF-002 - Permitir que usuários façam login com e-mail e senha.                      |
+| Registro de evidência     | [Link para evidência CT-002](./images/evidencia-2.PNG)                      |
+
+---
+
+| **Caso de teste**          | **CT-003 – Cadastro de Amostras**                                                  |
+|---------------------------|-------------------------------------------------------------------------------------|
+| Requisito associado       | RF-003 - Permitir o cadastro das amostras disponíveis para doação.                  |
+| Registro de evidência     | [Link para evidência CT-003](./images/evidencia-3.PNG)                           |
+
+---
+
+| **Caso de teste**          | **CT-004 – Visualização do Catálogo de Amostras**                                  |
+|---------------------------|-------------------------------------------------------------------------------------|
+| Requisito associado       | RF-004 - Disponibilizar um catálogo com informações sobre as amostras disponíveis.  |
+| Registro de evidência     | [Link para evidência CT-004](./images/evidencia-4.PNG)                  |
+
+---
+
+| **Caso de teste**          | **CT-005 – Inscrição para Recebimento de Doações**                                 |
+|---------------------------|-------------------------------------------------------------------------------------|
+| Requisito associado       | RF-005 - Interessados devem poder se inscrever para participar dos sorteios.        |
+| Registro de evidência     | [Link para evidência CT-005](./images/evidencia-5.PNG)                       |
+
+---
 
 ## Avaliação
 
-Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Durante os testes realizados, verificamos que todos os casos de teste foram concluídos com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
 
-> **Links úteis**:
+**Pontos fortes identificados:**
+
+- Interface intuitiva que facilitou a navegação e o cadastro dos usuários.
+- Funcionamento adequado do sistema de cadastro e gerenciamento de amostras.
+- Efetiva comunicação das doações via notificações (e-mails).
+- Processos de inscrição e sorteio fluíram conforme esperado.
+
+**Pontos a melhorar:**
+
+- Otimização do tempo de resposta em algumas operações para atender ao requisito de 3 segundos.
+- Inclusão de feedback visual mais claro após ações como cadastro e edição.
+- Implementação de filtros avançados no catálogo para melhorar a busca de amostras.
+
+O grupo planeja priorizar essas melhorias nas próximas iterações, focando especialmente na experiência do usuário e no desempenho do sistema.
+
+---
+
+> **Links úteis:**  
+> - [Screencast: o que é e como gravar vídeos](https://rockcontent.com/br/blog/screencast/)  
 > - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)

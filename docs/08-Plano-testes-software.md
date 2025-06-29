@@ -1,52 +1,116 @@
-# Plano de testes de software
+# Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
+O plano de testes de software foi elaborado com base na especificação do sistema e compreende um conjunto de casos de teste que foram executados à medida que a implementação foi sendo desenvolvida e finalizada.
 
-O plano de testes de software é gerado a partir da especificação do sistema e consiste em casos de teste que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. Apresente os cenários de teste utilizados na realização dos testes da sua aplicação. Escolha cenários de teste que demonstrem os requisitos sendo satisfeitos.
+Neste documento, apresentamos os cenários de teste utilizados para validar a aplicação, selecionando aqueles que comprovam o atendimento aos requisitos funcionais definidos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico, o grupo deve detalhar quais funcionalidades foram avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Cada cenário de teste está enumerado sequencialmente, detalhando as funcionalidades avaliadas, o perfil dos usuários envolvidos nos testes e as ferramentas utilizadas para sua execução.
 
-Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s) requisito(s) associado(s) a cada um deles esteja(m) correto(s) — de acordo com o que foi definido na <a href="02-Especificacao.md">Especificação do projeto</a>.
+O sistema foi testado de forma criteriosa pelo grupo, garantindo que todos os casos de teste estejam claramente associados aos seus respectivos requisitos, conforme definido na <a href="02-Especificacao.md">Especificação do projeto</a>, assegurando rastreabilidade e alinhamento com os objetivos do sistema.
 
-Por exemplo:
+# Requisitos do Sistema
 
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
-|:---: |:---: |
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-| Critério de êxito | - O cadastro foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+---
 
-<br>
+## Requisitos Funcionais
 
-| **Caso de teste**  | **CT-002 – Efetuar login**  |
-|:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do teste | Verificar se o usuário consegue realizar login. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Login" |
-| Critério de êxito | - O login foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+| ID     | Descrição do Requisito                                                                 | Prioridade |
+|--------|----------------------------------------------------------------------------------------|------------|
+| RF-001 | Permitir o cadastro de usuário administrador com acesso para gerenciar amostras        | ALTA       |
+| RF-002 | Permitir que qualquer pessoa se cadastre como usuário comum interessado em receber doações | ALTA       |
+| RF-003 | Permitir que o usuário comum escolha quais tipos de alimentos ele tem interesse        | MÉDIA      |
+| RF-004 | Disponibilizar um catálogo com informações sobre as amostras disponíveis                | MÉDIA      |
+| RF-005 | Enviar e-mail aos interessados informando novos alimentos disponíveis para doação e como entrar em contato para receber | ALTA       |
+| RF-006 | Permitir que usuário administrador edite uma amostra como indisponível e registre o usuário comum que recebeu a doação | ALTA       |
+| RF-007 | Disponibilizar um relatório de histórico de doações e amostras disponíveis             | MÉDIA      |
 
-<br>
+---
 
-| **Caso de teste**  | **CT-001 – Catálogo de Amostras**  |
-|:---: |:---: |
-| Requisito associado | RF-004 - Disponibilizar um catálogo com informações sobre as amostras disponíveis. |
-| Objetivo do teste | Verificar se o usuário consegue visualizar amostras disponiveis. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://reamostra-git-main-marvinreissantos-projects.vercel.app <br> - Clicar no botão "Grãos Disponíveis" |
-| Critério de êxito | - É possivel ver exemplos de grãos disponíveis, com a suas respetivas informações: nome, kg, descrição e foto |
-| Responsável pela elaboração do caso de teste | João Vinícius |
+## Requisitos Não Funcionais
 
+| ID      | Descrição do Requisito                                                        | Prioridade |
+|---------|-------------------------------------------------------------------------------|------------|
+| RNF-001 | O sistema deve ser acessível via dispositivos móveis e desktop                | ALTA       |
+| RNF-002 | O tempo de resposta das solicitações não deve ultrapassar 3 segundos          | MÉDIA      |
+| RNF-003 | A interface deve ser intuitiva para usuários com pouco conhecimento tecnológico | ALTA       |
+| RNF-004 | O sistema deve garantir a segurança e privacidade dos dados dos usuários       | ALTA       |
+| RNF-005 | O sistema deve ser escalável para atender no mínimo 40 usuários conectados ao mesmo tempo sem perda de desempenho | MÉDIA      |
 
-## Ferramentas de testes (opcional)
+---
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links úteis**:
-> - [IBM - criação e geração de planos de teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e técnicas de testes ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de software: conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e geração de planos de teste de software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+# Plano de Testes
+
+| **Caso de teste**                | **CT-001 – Cadastro de Usuário**                                         |
+|---------------------------------|-------------------------------------------------------------------------|
+| Requisito associado             | RF-001 - A aplicação deve permitir o cadastro de usuários interessados em receber doações. |
+| Objetivo do teste               | Verificar se o usuário consegue se cadastrar corretamente no sistema.   |
+| Passos                         | - Acessar o navegador <br> - Informar o endereço do sistema <br> - Clicar em "Cadastrar" <br> - Preencher todos os campos obrigatórios <br> - Confirmar cadastro |
+| Critério de êxito              | - O cadastro é concluído com sucesso e usuário recebe confirmação.       |
+| Responsável pela elaboração    | Ana Julia Ferreira Soares                                                 |
+| Responsável pelo teste         | Arthur Santos Bezerra                                                    |
+
+---
+
+| **Caso de teste**                | **CT-002 – Login de Usuário**                                            |
+|---------------------------------|-------------------------------------------------------------------------|
+| Requisito associado             | RF-002 - A aplicação deve permitir que usuários façam login com e-mail e senha. |
+| Objetivo do teste               | Verificar se o usuário consegue realizar login na aplicação.            |
+| Passos                         | - Acessar o navegador <br> - Informar o endereço do sistema <br> - Clicar em "Entrar" <br> - Inserir e-mail e senha válidos <br> - Confirmar login |
+| Critério de êxito              | - Usuário é autenticado e direcionado para o painel principal.           |
+| Responsável pela elaboração    | Bruno Maciel dos Santos                                                  |
+| Responsável pelo teste         | João Vinicius Rodrigues Santos                                          |
+
+---
+
+| **Caso de teste**                | **CT-003 – Cadastro de Amostras**                                       |
+|---------------------------------|-------------------------------------------------------------------------|
+| Requisito associado             | RF-003 - O sistema deve permitir o cadastro das amostras disponíveis para doação. |
+| Objetivo do teste               | Verificar se o administrador consegue cadastrar amostras no sistema.    |
+| Passos                         | - Acessar o sistema como administrador <br> - Navegar até área de cadastro de amostras <br> - Preencher informações obrigatórias da amostra <br> - Salvar cadastro |
+| Critério de êxito              | - Amostra é salva e aparece no catálogo para os usuários.                |
+| Responsável pela elaboração    | João Vinicius Rodrigues Santos                                          |
+| Responsável pelo teste         | Marcos Vinicius dos Reis Santos                                         |
+
+---
+
+| **Caso de teste**                | **CT-004 – Visualização do Catálogo de Amostras**                       |
+|---------------------------------|-------------------------------------------------------------------------|
+| Requisito associado             | RF-004 - Disponibilizar um catálogo com informações sobre as amostras disponíveis. |
+| Objetivo do teste               | Verificar se o usuário consegue visualizar as amostras disponíveis no catálogo. |
+| Passos                         | - Acessar o sistema <br> - Navegar até a página de catálogo de amostras <br> - Visualizar informações como nome, peso, descrição e foto das amostras |
+| Critério de êxito              | - Amostras são exibidas com todas as informações corretas.              |
+| Responsável pela elaboração    | Marcos Vinicius dos Reis Santos                                         |
+| Responsável pelo teste         | Viviane Cristina de Souza Santos                                        |
+
+---
+
+| **Caso de teste**                | **CT-005 – Inscrição para Recebimento de Doações**                      |
+|---------------------------------|-------------------------------------------------------------------------|
+| Requisito associado             | RF-005 - Interessados devem poder se inscrever para participar dos sorteios de doações. |
+| Objetivo do teste               | Verificar se o usuário consegue realizar inscrição para o sorteio de doações. |
+| Passos                         | - Acessar o sistema <br> - Navegar até a área de inscrições <br> - Preencher dados necessários para inscrição <br> - Confirmar inscrição |
+| Critério de êxito              | - Inscrição é realizada com sucesso e usuário recebe confirmação.        |
+| Responsável pela elaboração    | Viviane Cristina de Souza Santos                                        |
+| Responsável pelo teste         | Ana Julia Ferreira Soares                                               |
+
+---
+
+## Ferramentas de Testes (opcional)
+
+Para a realização dos testes, utilizamos ferramentas como:
+
+- Navegadores modernos (Google Chrome, Firefox) para testes manuais da interface.
+- Insomnia para testar as APIs do back-end.
+- Supabase Studio para verificar banco de dados e autenticação.
+- Ferramentas de captura de tela e gravação para registro dos testes.
+
+---
+
+## Integrantes
+
+- Ana Julia Ferreira Soares  
+- Arthur Santos Bezerra  
+- Bruno Maciel dos Santos  
+- João Vinicius Rodrigues Santos  
+- Marcos Vinicius dos Reis Santos  
+- Viviane Cristina de Souza Santos  
