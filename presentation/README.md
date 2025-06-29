@@ -33,5 +33,5 @@ Aprimoramento da interface, integração das funcionalidades e início dos teste
 
 O grupo criou um **pitch de até cinco minutos** apresentando o sistema desenvolvido. O vídeo inclui uma **demonstração da aplicação hospedada**, destacando suas principais funcionalidades e mostrando seu funcionamento real.
 
-📽️ [Assista ao pitch do sistema](./video-pitch.mp4)
+📽️ [Assista ao pitch do sistema](./pitch-reamostra-github.mp4)
 
