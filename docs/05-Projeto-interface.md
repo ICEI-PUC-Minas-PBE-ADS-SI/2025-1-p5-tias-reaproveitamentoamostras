@@ -58,14 +58,11 @@ Página Perfil
 Página Sobre Nós
 ![Página Sobre Nós](images/quemsomos.png)
 
-Página Catálago Admin
-![Página Catálago Admin](images/catalagoadmin.png)
+Página Painel Administrativo
+![Página Catálago Admin](images/paineladmin.png)
 
-Página Catálago Admin Adicionar Grãos
-![Página Catálago Admin](images/addprodutocatalago.png)
-
-Página Histórico Admin 
-![Página Histórico Admin ](images/historicoadmin.png)
+Página de Candidaturas 
+![Página Histórico Admin ](images/candidaturas.png)
 
 <!--
 > **Links úteis**:
