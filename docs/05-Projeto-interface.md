@@ -56,7 +56,7 @@ Página Perfil
 ![Página Perfil](images/meuperfil.png)
 
 Página Sobre Nós
-![Página Sobre Nós](images/sobrenos.png)
+![Página Sobre Nós](images/quemsomos.png)
 
 Página Catálago Admin
 ![Página Catálago Admin](images/catalagoadmin.png)
