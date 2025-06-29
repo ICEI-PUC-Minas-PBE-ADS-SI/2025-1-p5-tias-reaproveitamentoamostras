@@ -9,23 +9,24 @@ Cada arquivo apresenta os principais marcos, decisões e entregas realizadas na 
 ## Slides das Sprints
 
 ### 🟢 Sprint 1  
-**Arquivo:** `Apresentação da sprint 1.pdf`  
+**Arquivo:** [📄 Apresentação da sprint 1](./Apresentação%20da%20sprint%201.pdf)
+
 Nesta sprint, foram definidos o escopo inicial do projeto e levantamento de requisitos.
 
 ### 🟡 Sprint 2  
-**Arquivo:** `Apresentação da sprint 2.pdf`  
+**Arquivo:** [📄 Apresentação da sprint 2](./Apresentação%20da%20sprint%202.pdf)
 Primeiros esboços e organização das tarefas iniciais.
 
 ### 🔵 Sprint 3  
-**Arquivo:** `Apresentação da sprint 3.pdf`  
+**Arquivo:** [📄 Apresentação da sprint 3](./Apresentação%20da%20sprint%203.pdf)
 Foco na modelagem de dados, definição da arquitetura do sistema e início da prototipação da interface. 
 
 ### 🟠 Sprint 4  
-**Arquivo:** `Apresentação da sprint 4.pdf`  
+**Arquivo:** [📄 Apresentação da sprint 4](./Apresentação%20da%20sprint%204.pdf) 
 Desenvolvimento inicial das funcionalidades principais, testes preliminares e refinamento do backlog.
 
 ### 🔴 Sprint 5  
-**Arquivo:** `Apresentação da sprint 5.pdf`  
+**Arquivo:** [📄 Apresentação da sprint 5](./Apresentação%20da%20sprint%205.pdf) 
 Aprimoramento da interface, integração das funcionalidades e início dos testes de usabilidade.
 
 ## Slides
