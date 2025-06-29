@@ -52,9 +52,6 @@ Página Inicial
 Página Catálago
 ![Página Catálago](images/catalagoss.png)
 
-Página Catálago Reservar Grãos
-![Página Catálago Reservar Grãos](images/reservar.png)
-
 Página Perfil
 ![Página Perfil](images/perfil.png)
 
