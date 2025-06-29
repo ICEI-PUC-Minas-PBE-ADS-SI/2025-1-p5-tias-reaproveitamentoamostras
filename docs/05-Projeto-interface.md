@@ -105,7 +105,7 @@ Descrição da tela relativa à atividade 2 do processo 1.
 
 Na atividade 1 do processo de "Cadastro de Gerenciamento de Amostras", o usuário administrador visualiza todas as amostras já cadastradas.
 
-![atividade1](images/paineladmin.png)
+![atividade1](images/catalagoss.png)
 
 Na atividade 2 do processo "Cadastro de Gerenciamento de Amostras", o usuário administrador interage com a aplicação para adicionar um novo cadastro de amostra ou remover um cadastro já existente.
 
