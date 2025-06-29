@@ -47,10 +47,10 @@ Tela de Cadastro
 ![Tela de Cadastro](images/telacadastro.png)
 
 Página Inicial
-![Página Inicial](images/paginainicial.png)
+![Página Inicial](images/PaginaInicial.png)
 
 Página Catálago
-![Página Catálago](images/catalagos.png)
+![Página Catálago](images/catalagoss.png)
 
 Página Catálago Reservar Grãos
 ![Página Catálago Reservar Grãos](images/reservar.png)
