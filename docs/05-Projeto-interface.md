@@ -167,19 +167,16 @@ Bruno acessa a tela de login e entra no sistema com credenciais de administrador
 
 Vê uma visão geral do sistema e acessa rapidamente o catálogo de amostras ou histórico.
 
-📍 Tela: Home
+📍 Tela: Painel Administrativo [admin]
 
-#### Catálogo de Amostras [admin]
+#### Candidaturas
+Consulta que fez cada candidatura ao grão desejado, para realização do sorteio.
 
-Cadastra, edita ou remove amostras disponíveis.
+#### Gerir Grãos
+Consulta e audita registros de movimentações de amostras.
 
-Pode inserir dados como tipo, validade, lote e imagens.
-
-📍 Tela: Catálogo de Amostras [admin]
-
-#### Histórico de Ações
-
-Consulta e audita registros de movimentações de amostras, verificando quem fez cada ação.
+#### Gerir Usuário
+Consulta e audita registros de movimentações de do usuários, verificando quem fez cada ação.
 
 📍 Tela: Histórico [admin]
 
@@ -193,4 +190,3 @@ Atualiza senha, e-mail ou outras preferências administrativas.
 
 Acessa conteúdo institucional do projeto, útil para apresentações ou relatórios.
 
-📍 Tela: Sobre Nós
