@@ -11,12 +11,22 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md">Plano 
 | Requisito associado       | RF-001 - Permitir o cadastro de usuários interessados em receber doações.           |
 | Registro de evidência     | [Link para evidência CT-001](./images/evidencia-1.PNG)                      |
 
+**Avaliação do CT-001 – Cadastro de Usuário**
+
+- O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
+- Interface facilitou para que o usuário realizasse seu cadastro.
+
 ---
 
 | **Caso de teste**          | **CT-002 – Login de Usuário**                                                      |
 |---------------------------|-------------------------------------------------------------------------------------|
 | Requisito associado       | RF-002 - Permitir que usuários façam login com e-mail e senha.                      |
 | Registro de evidência     | [Link para evidência CT-002](./images/evidencia-2.PNG)                      |
+
+**Avaliação do CT-002 – Login de Usuário**
+
+- O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
+- Interface facilitou para que o usuário realizasse seu login.
 
 ---
 
@@ -25,12 +35,23 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md">Plano 
 | Requisito associado       | RF-003 - Permitir o cadastro das amostras disponíveis para doação.                  |
 | Registro de evidência     | [Link para evidência CT-003](./images/evidencia-3.PNG)                           |
 
+**Avaliação do CT-003 – Cadastro de Amostras**
+
+- O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
+- Funcionamento adequado do sistema de cadastro e gerenciamento de amostras.
+  
 ---
 
 | **Caso de teste**          | **CT-004 – Visualização do Catálogo de Amostras**                                  |
 |---------------------------|-------------------------------------------------------------------------------------|
 | Requisito associado       | RF-004 - Disponibilizar um catálogo com informações sobre as amostras disponíveis.  |
 | Registro de evidência     | [Link para evidência CT-004](./images/evidencia-4.PNG)                  |
+
+**Avaliação do CT-004 – Visualização do Catálogo de Amostrao**
+
+- O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
+- Otimização do tempo de resposta em algumas operações para atender ao requisito de 3 segundos.
+- Sentimentode falta de filtros avançados no catálogo para melhorar a busca de amostras.
 
 ---
 
@@ -39,6 +60,11 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md">Plano 
 | Requisito associado       | RF-005 - Interessados devem poder se inscrever para participar dos sorteios.        |
 | Registro de evidência     | [Link para evidência CT-005](./images/evidencia-5.PNG)                       |
 
+**Avaliação do CT-005 – Inscrição para Recebimento de Doações**
+
+- O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
+- A comunicação está satisfatória e efetiva via notificações (e-mails).
+  
 ---
 
 ## Avaliação
