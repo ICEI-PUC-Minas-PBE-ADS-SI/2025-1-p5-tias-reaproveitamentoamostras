@@ -105,11 +105,11 @@ Descrição da tela relativa à atividade 2 do processo 1.
 
 Na atividade 1 do processo de "Cadastro de Gerenciamento de Amostras", o usuário administrador visualiza todas as amostras já cadastradas.
 
-![atividade1](images/catalagoadmin.png)
+![atividade1](images/paineladmin.png)
 
 Na atividade 2 do processo "Cadastro de Gerenciamento de Amostras", o usuário administrador interage com a aplicação para adicionar um novo cadastro de amostra ou remover um cadastro já existente.
 
-![atividade2](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/pag1.jpg)
+![atividade2](images/paineladmin.png)
 
 ## Jornada do Usuário (Pessoa comum)
 
