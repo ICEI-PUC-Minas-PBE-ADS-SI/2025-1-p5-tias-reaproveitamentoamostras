@@ -156,6 +156,16 @@ Atualizado em: 08/06/2025
 | Bruno       | Melhoria na formatação das paginas de login e cadastro | 07/06/2025     | 08/06/2025 | ✔️    | 08/06/2025      |
 
 
+#### Sprint 5
+
+Atualizado em: 29/06/2025
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Ana Julia    | Gravação do Pitch| 28/06/2025     | 29/06/2025 | ✔️    | 28/06/2025      |
+| Ana Julia      | Edição do campo 05-Projeto-interface | 29/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
+
+
+
 Legenda:
 - ✔️: terminado
 - 📝: em execução
