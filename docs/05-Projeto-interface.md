@@ -47,7 +47,7 @@ Tela de Cadastro
 ![Tela de Cadastro](images/telacadastro.png)
 
 Página Inicial
-![Página Inicial](images/homepage.png)
+![Página Inicial](images/paginainicial.png)
 
 Página Catálago
 ![Página Catálago](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-reaproveitamentoamostras/blob/fc83b4ffbb39d0f28513ea46f872308bcc2cf063/docs/images/catalago.png)
