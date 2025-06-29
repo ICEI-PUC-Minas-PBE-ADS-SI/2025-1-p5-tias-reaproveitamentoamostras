@@ -51,7 +51,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md">Plano 
 
 - O caso de teste foi concluído com sucesso, atendendo aos requisitos funcionais estabelecidos no projeto.
 - Otimização do tempo de resposta em algumas operações para atender ao requisito de 3 segundos.
-- Sentimentode falta de filtros avançados no catálogo para melhorar a busca de amostras.
+- Sentimento de falta de filtros avançados no catálogo para melhorar a busca de amostras.
 
 ---
 
