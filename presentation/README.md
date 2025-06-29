@@ -29,12 +29,6 @@ Desenvolvimento inicial das funcionalidades principais, testes preliminares e re
 **Arquivo:** [📄 Apresentação da sprint 5](./Apresentação%20da%20sprint%205.pdf) 
 Aprimoramento da interface, integração das funcionalidades e início dos testes de usabilidade.
 
-## Slides
-
-Coloque aqui o conjunto de slides.
-
-> O arquivo deve estar no formato PDF e conter a apresentação completa do projeto, abordando todos os itens trabalhados nos demais artefatos. 
-
 ## Vídeo
 
 O grupo criou um **pitch de até cinco minutos** apresentando o sistema desenvolvido. O vídeo inclui uma **demonstração da aplicação hospedada**, destacando suas principais funcionalidades e mostrando seu funcionamento real.
