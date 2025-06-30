@@ -26,7 +26,7 @@ Foco na modelagem de dados, definição da arquitetura do sistema e início da p
 Desenvolvimento inicial das funcionalidades principais, testes preliminares e refinamento do backlog.
 
 ### 🔴 Sprint 5  
-**Arquivo:** [📄 Apresentação da sprint 5](./Apresentação%20da%20sprint%205.pdf) 
+**Arquivo:** [📄 Apresentação da sprint 5](./Apresentação%20da%20Sprint%205.pdf) 
 Aprimoramento da interface, integração das funcionalidades e início dos testes de usabilidade.
 
 ## Vídeo
