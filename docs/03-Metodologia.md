@@ -164,6 +164,11 @@ Atualizado em: 29/06/2025
 | Ana Julia    | Gravação do Pitch| 28/06/2025     | 29/06/2025 | ✔️    | 28/06/2025      |
 | Ana Julia      | Edição do campo 05-Projeto-interface | 29/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
 
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Arthur    | Gravação do Pitch | 28/06/2025     | 29/06/2025 | ✔️    | 28/06/2025      |
+| Arthur    | Preenchimento do campo 09-registro-testes-software | 27/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
+| Arthur    | Edição do pasta presentation | 29/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
 
 
 Legenda:
