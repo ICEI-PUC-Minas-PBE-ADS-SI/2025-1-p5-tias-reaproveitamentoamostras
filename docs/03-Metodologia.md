@@ -168,7 +168,7 @@ Atualizado em: 29/06/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Arthur    | Gravação do Pitch | 28/06/2025     | 29/06/2025 | ✔️    | 28/06/2025      |
 | Arthur    | Preenchimento do campo 09-registro-testes-software | 27/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
-| Arthur    | Edição do pasta presentation | 29/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
+| Arthur    | Edição da pasta presentation | 29/06/2025     | 29/06/2025 | ✔️    | 29/06/2025       |
 
 
 Legenda:
